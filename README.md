@@ -37,3 +37,7 @@ https://www.youtube.com/watch?v=m1G7oS9hmwE&list=PLGMXrbDNfqTzqxB1IGgimuhtfAhGd8
 https://github.com/Flawless1202/VGAE_pyG/tree/master
 
 https://archive.li/SXH4W#selection-10415.0-10415.7
+
+### Milestone 2
+
+You can run the milestone2.ipynb to check the pipeline. The training can be found under the "Training the model" section, while the evaluation under the "Evaluate" section.
