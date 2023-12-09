@@ -6,7 +6,7 @@ SF
 
 ### Team members' names and Neptun codes
 
-Dau Quang Phong - QQ6ASM
+~~Dau Quang Phong - QQ6ASM~~ (he stopped working on the subject's requirements during the semester)
 
 Gyömbér Péter - PIM313
 
