@@ -9,3 +9,4 @@ pandas-stubs==1.5.3.230304
 numpy==1.23.5
 torch==2.1.0
 jupyter==1.0.0
+bokeh==3.3.1

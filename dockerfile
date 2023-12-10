@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the requirements.txt and Jupyter Notebook to the container
 COPY requirements.txt .
-COPY milestone1.ipynb .
+COPY final_milestone.ipynb .
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
