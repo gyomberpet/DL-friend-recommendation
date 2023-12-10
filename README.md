@@ -43,3 +43,17 @@ https://github.com/lucashu1/link-prediction/blob/master/link-prediction-baseline
 ### Milestone 2
 
 You can run the milestone2.ipynb to check the pipeline. The training can be found under the "Training the model" section, while the evaluation under the "Evaluate" section.
+
+### Final milestone
+
+The final_milestone.ipynb contains the final version of our solution. You can simply run the notebook the observe the training pipeline and see the evaluation results. We also created the final_milestone.py, which were generated from the notebook, commenting out a few lines for installing packages. We tried to use it in the dockerfile, but we ran into some complications. Instead you can use the dockerfile to create an image of the notebook, then you can run the container and access the notebook through the browser.
+
+Using docker:
+
+1. Clone the github repositury to your computer
+2. Open a terminal and go to the directory, where the dockerfile is located
+3. Build the image: docker build -t final_milestone .
+4. Run the container: docker run -p 8888:8888 final_milestone
+5. You will get a link which you can use to open the notebook in the browser, it should look similar to this (use your own token): http://127.0.0.1:8888/tree?token=your_token
+6. After opening the notebook, you can run all the cells - it will download the data, train the models, show the evaluation metrics and start a gradio application
+7. You can select a node index in the gradio app and you will see the best recommendations for that node, predicted by our model
